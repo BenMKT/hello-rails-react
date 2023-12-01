@@ -14,6 +14,9 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
+# Use RuboCop to enforce a code style and enable/disable rules
+gem 'rubocop', '>= 1.0', '< 2.0'
+
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
 
